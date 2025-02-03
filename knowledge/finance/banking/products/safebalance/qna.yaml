@@ -1,0 +1,150 @@
+version: 3
+domain: Banking and finance
+created_by: Team BofA
+seed_examples:
+  - context: |
+      ## Clarity Statement  - Overview of key policies and fees
+
+      ## Account information
+
+      |     |  |
+      | -------- | ------- |
+      | Opening Deposit   | $25 or more   |
+      | Monthly Maintenance Fee | $4.95 each month. You can avoid the Monthly Maintenance Fee when you meet ONE of the following requirements during each statement cycle: Maintain a minimum daily balance of $500 or more in your account, OR An account owner, or child on a Family Banking account, is under the age of 25 (fiduciary accounts don't qualify), OR An owner of the account is a member of the Preferred Rewards program. Learn more at bankofamerica.com/preferred-rewards.    |
+
+
+      ## ATM fees
+
+      |  |  |  |
+      | -------- | ------- | ------- |
+      | Bank of America ATMs  | No ATM fee | For deposits, withdrawals, transfers or balance inquiries |
+      | Non-Bank of America ATMs  |$2.50 | In the U.S., plus any fee charged by the ATM's operator |
+      | Non-Bank of America ATMs  | $5.00 | Outside the U.S., plus any fee charged by the ATM's operator |
+
+    questions_and_answers:
+      - question: |
+          What is the opening deposit amount for the Advantage SafeBalance Banking and SafeBalance accounts?
+        answer: |
+          The opening deposit amount for the Advantage SafeBalance Banking and SafeBalance accounts is $25
+      - question: |
+          Is there a monthly maintenance fee for the Advantage SafeBalance Banking and SafeBalance accounts?
+        answer: |
+          Yes, the monthly maintenance fee is $4.95 each month
+      - question: |
+          What are the ATM fees for use of Non-Bank of America ATMs outside the U.S.?
+        answer: |
+          The fee for using a Non-Bank of America ATM outside the U.S. is $5.00, plus any additional fees by the operator of the ATM
+  - context: |
+      ## No bank overdraft fees
+
+      We don't charge overdraft fees on this account. To help you avoid overdrawing your account, transactions will be declined and returned unpaid when you don't have enough money in your account.
+
+      - If this happens, you won't be charged a bank overdraft fee, but the merchant or third party could charge you a fee. For example, you may be charged a late fee if the payment isn't received on time.
+      - An owner can set up email or mobile alerts to notify you when you have a low balance in your account or when items aren't paid. (We don't charge for this service but your mobile carrier's message and data fees may apply. Delivery of alerts may be affected or delayed by your mobile carrier's coverage.)
+
+      While this account prevents you from overdrawing in most cases, there may still be times when your account could have a negative balance, but we won't charge an overdraft fee. This could happen in the following ways:
+
+      - When your debit card is authorized for one amount but the final amount is higher (for example, adding a tip at a restaurant or pumping gas)
+      - A scheduled bill payment is deducted when you have insufficient funds in your account for the payment
+      - When you get charged a fee, such as a monthly maintenance fee, and the current balance is less than the fee
+
+      ## When your deposits are available
+
+      - Cash, direct deposits and wire transfers: On the day we receive them. Direct deposit and wire transfers aren't available for SafeBalance ® for Family Banking accounts.
+      - Checks you deposit: Usually the next business day, if deposited before the financial center or ATM cutoff time.
+      - Mobile Check Deposits: Usually the next business day if deposited by applicable cutoff times. Please refer to Deposit Checks , then Help in the Mobile Banking app for additional details and terms and conditions.
+      - If we place a hold on your deposit, we'll let you know the hold reason and when funds will be available for you to use. This is typically provided at the time of deposit but may also be mailed later. Deposits greater than $5,525 and checks deposited within the first 30 days of account opening may be held longer.
+    questions_and_answers:
+      - question: |
+          Are there bank overdraft fees on this account?
+        answer: |
+          There are no bank overdraft fees on the Advantage SafeBalance Banking and SafeBalance.  Transactions will be declined to prevent overdrawing on this account
+      - question: |
+          How soon are cash deposits available?
+        answer: |
+          Cash deposits to Advantage SafeBalance Banking and SafeBalance for Family Banking accounts will be available on the day we receive them
+      - question: |
+          If my account has a negative balance will I be charges
+        answer: |
+          If yourAdvantage SafeBalance Banking and SafeBalance for Family Banking account has a negative balance you will not be charged.
+  - context: |
+      ## Additional fees
+
+      | Statement copies             | No fee      | Paper copies available upon request. Printable statements are available in Online Banking.                                                                               |
+      |------------------------------|-------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+      | Card replacement             | No fee      | For each ATM or debit card                                                                                                                                               |
+      |                              | $15.00      | For rush delivery                                                                                                                                                        |
+      | Stop payment                 | $30.00      | For each request; WAIVED for requests on debit card or Bill Pay transactions                                                                                             |
+      | Cashier's checks             | $15.00      | For each check                                                                                                                                                           |
+      | Domestic wire transfers      | $15.00      | For each incoming wire transfer 5                                                                                                                                        |
+      |                              | $30.00      | For each outgoing wire transfer                                                                                                                                          |
+      | International wire transfers | $15.00      | For each incoming wire transfer: If received in a foreign currency, it will be converted into U.S. Dollars using the applicable exchange rate determined solely by us. SafeBalance for Family Banking accounts can't receive incoming wire transfers. |
+      |                              | No wire fee | For each outgoing wire transfer sent in foreign currency. Please be advised, exchange rate markups will apply. See below.                                                |
+      |                              | $45.00      | For each outgoing wire transfer sent in U.S. Dollars |
+
+    questions_and_answers:
+      - question: |
+          What are the fees for a replacement card?
+        answer: |
+          There is no fee for a replacement card for Advantage SafeBalance Banking and SafeBalance for Family Banking accounts
+      - question: |
+          What is the fee for an International wire transfer?
+        answer: |
+          The fee for a Advantage SafeBalance Banking and SafeBalance for Family Banking wire transfer is $15
+      - question: |
+          Can SafeBalance for Family Banking accounts receive incoming wire transfers?
+        answer: |
+          No, SafeBalance for Family Banking accounts cannot receive incoming wire transfers
+  - context: |
+      Review all the features and benefits of your new account at bankofamerica.com/quickstart
+
+      For questions, schedule an appointment to visit a financial center at bankofamerica.com/appointments
+
+      Call us at 800.432.1000
+
+    questions_and_answers:
+      - question: |
+          Where can I view all the features and benefits of a Bank of America Advantage SafeBalance account?
+        answer: |
+          Information on features and benefits of your our accounts can be found at bankofamerica.com/quickstart
+      - question: |
+          How can I schedule an appointment to visit a Bank of America financial center?
+        answer: |
+          You can schedule an appointment to visit a financial center at bankofamerica.com/appointments
+      - question: |
+          What is the phone number to call Bank of America?
+        answer: |
+          The phone number to call Bank of America is 800.432.1000
+  - context: |
+      ## Ways to make payments
+
+      Some payment options are unavailable for the owner and child of a SafeBalance ® for Family Banking account.
+
+      Pay individuals and businesses using:
+
+      - · Your Debit Card: Make purchases and payments at millions of locations.
+      - · Online and Mobile Bill Pay: Pay your bills through Bank of America's Online Banking or Mobile Banking app. Mobile Banking requires that you download the Mobile Banking app and is only available for select mobile devices. Message and data rates may apply.
+      - · Online or Mobile Banking transfers: Securely send money to friends, family or coworkers.  Fees apply to wires and certain transfers. See the Online Banking Service Agreement at bankofamerica.com/serviceagreement for details.
+
+      NOTE: You can't write personal checks on this account. Any check you write will be returned unpaid, even if you have enough money in your account.
+
+    questions_and_answers:
+      - question: |
+          WWhat are the payment options for Bank of America Advantage SafeBalance accounts?
+        answer: |
+          Payments can be made using debit cards, online and mobile payments, and online or mobile transeers
+      - question: |
+          Can I write a personal chack on my Bank of America Advantage SafeBalance account?
+        answer: |
+          No, you cannot write personal checks for this account.
+      - question: |
+          Does mobile banking require a mobile app?
+        answer: |
+          Yes, you need the mobile banking app for mobile banking transactions
+document_outline: |
+  Details of Bank of America Advantage SafeBalance Banking and SafeBalance for Family Banking
+document:
+  repo: https://github.com/rh-aiservices-bu/etx-bofa.git
+  commit: 42e33a5739c78d1d464454142d33c03732611124
+  patterns:
+    - "source_docs/safebalance/*.md"

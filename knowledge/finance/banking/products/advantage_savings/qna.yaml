@@ -1,0 +1,122 @@
+version: 3
+domain: Banking and Finance
+created_by: Team BofA
+seed_examples:
+  - context: |
+      ## Your Bank of America Advantage Savings Account
+
+      | | |
+      |-----|------|
+      |FDIC Coverage: | This account is insured by the Federal Deposit Insurance Corporation (FDIC) and is backed by the U.S. government. The standard insurance amount is $250,000 per depositor, per insured bank, for each account ownership category. |
+
+
+      | | | |
+      |-----|------|-----|
+      | Monthly Maintenance Fee: (We'll waive this fee for the first 6 months.) | $8.00 each month | You can avoid the Monthly Maintenance Fee when you meet ONE of the following requirements during each statement cycle: Maintain a minimum daily balance of $500 or more in your account, OR Ask us to link your account to your Bank of America Advantage Relationship Banking ® , Bank of America Advantage ® with Tiered Interest Checking or Bank of America Advantage ® Regular Checking account (first 4 savings accounts), OR An owner of this account is under the age of 25 (fiduciary accounts don't qualify), OR Be a member of the Preferred Rewards program. Learn more at bankofamerica.com/preferred-rewards, or visit your local financial center. |
+    questions_and_answers:
+      - question: |
+          What is the monthly maintenance fee for the Bank of America Advantage Savings account?
+        answer: |
+          The monthly maintenance fee for the Bank of America Advantage Savings account is $8.00.
+      - question: |
+          How can the monthly maintenance fee for the Bank of America Advantage Savings account be waived?
+        answer: |
+          The monthly maintenance fee can be waived by maintaining a minimum daily balance of $500, linking your account to a Bank of America Advantage Relationship Banking, Bank of America Advantage with Tiered Interest Checking, or Bank of America Advantage Regular Checking account, being under the age of 25, or being a member of the Preferred Rewards program.
+      - question: |
+          Is the Bank of America Advantage Savings Account insured by the Federal Deposit Insurance Corporation (FDIC)
+        answer: |
+          Yes, this account is insured by the Federal Deposit Insurance Corporation (FDIC) and is backed by the U.S. government
+  - context: |
+      ## Interest rate policy
+
+      Interest rate and interest calculation: Your account has a variable interest rate, which means the interest rate may change. Interest rates for your account are based on balance tiers, are set at our discretion and may change at any time without notice.
+
+      To calculate interest, we apply a daily periodic rate to the collected balance in your account each day. The daily rate that applies will depend on which balance tier your end-of-day balance falls in. We compound and pay any interest earned monthly. Interest is only paid in whole cents and we use standard rounding rules to calculate the amount. This means that an amount less than half of one cent is rounded down to zero, and an amount of half of one cent or more is rounded up to the next whole cent.
+
+      Extra interest: Extra interest is earned automatically when an account owner is enrolled in the Preferred Rewards program. The interest rate will increase by at least 5%, 10% or 20% over the standard rate, and is based on the Preferred Rewards tier in which you're enrolled. We may decide to pay a higher rate.
+
+      Where can I find information about current interest rates?: You can find current rate information by checking bankofamerica.com, calling the number on your account statement or visiting a financial center.
+    questions_and_answers:
+      - question: |
+          How is interest calculated on the Bank of America Advantage Savings account?
+        answer: |
+          Interest is calculated by applying a daily periodic rate to the collected balance each day. The daily rate depends on the balance tier. Interest is compounded and paid monthly.
+      - question: |
+          What is extra interest?
+        answer: |
+          Extra interest is earned automatically when an account owner is enrolled in the Preferred Rewards program. The interest rate will increase by at least 5%, 10% or 20% over the standard rate, based on the Preferred Rewards tier.
+      - question: |
+          Where can I find current interest rate information?
+        answer: |
+          Current interest rate information can be found on bankofamerica.com, by calling the number on your account statement, or by visiting a financial center.
+  - context: |
+      ## Overdraft policy
+
+      We don't charge overdraft fees on this account. To help you avoid overdrawing your account, transactions will be declined and returned unpaid when you don't have enough money in your account.
+
+      If this happens, you won't be charged a bank overdraft fee, but the merchant or third party could charge you a fee. For example, you may be charged a late fee if the payment isn't received on time.
+
+      There may still be times when your account could have a negative balance, but we won't charge an overdraft fee.
+    questions_and_answers:
+      - question: |
+          Does the Bank of America Advantage Savings account charge overdraft fees?
+        answer: |
+          No, the Bank of America Advantage Savings account does not charge overdraft fees.
+      - question: |
+          What happens if I don't have enough money in my account to cover a transaction?
+        answer: |
+          If you don't have enough money in your account, the transaction will be declined and returned unpaid.
+      - question: |
+          Can I be charged a fee by a merchant or third party if my transaction is declined due to insufficient funds?
+        answer: |
+          Yes, a merchant or third party could charge you a fee, such as a late fee, if your payment is not received on time due to insufficient funds.
+  - context: |
+      ## Additional Services
+
+      | Service | Fee | Description |
+      |---------|-----|-------------|
+      | Bank of America ATMs | No ATM fee | For deposits, withdrawals, transfers or balance inquiries |
+      | Non-Bank of America ATMs | $2.50 | In the U.S., plus any fee charged by the ATM's operator |
+      | | $5.00 | Outside the U.S., plus any fee charged by the ATM's operator |
+      | Statement copies | No fee | Paper copies available upon request. Printable statements are available in Online Banking. |
+      | Stop payment fee | $30.00 | For each request; WAIVED for requests on Bill Pay transactions |
+      | Cashier's checks | $15.00 | For each check |
+    questions_and_answers:
+      - question: |
+          Are there any ATM fees for withdrawls from a Bank of America ATM for the Advantage Savings account?
+        answer: |
+          No, there are no ATM fees for withdrawls from a Bank of America ATM for the Advantage Savings account?
+      - question: |
+          What are the ATM fees for a withdrawl from a Non-Bank of America ATM within the U.S.?
+        answer: |
+          There is a $2.50 fee for a withdrawl from a Non-Bank of America ATM within the U.S.
+      - question: |
+          What is the fee for a cashiers check for the Advantage Savings account?
+        answer: |
+          There is a $15 for a cashiers check from the Advantage Savings account
+  - context: |
+      ## Keep the Change savings program
+
+      Build your savings automatically when you enroll in our Keep the Change savings program. Simply make everyday purchases with your Bank of America debit card, and we'll round up your purchases to the nearest dollar amount and transfer the difference from your checking account to your savings account.
+
+      Please see the Personal Schedule of Fees and Deposit Agreement and Disclosures for your account terms, and information on how to link eligible accounts to avoid the Monthly Maintenance Fee.
+    questions_and_answers:
+      - question: |
+          What is the Keep the Change savings program?
+        answer: |
+          You can build your savings when you make everyday purchases, and we'll round up your purchases to the nearest dollar amount and transfer the difference from your checking account to your savings account
+      - question: |
+          Can I make purchases with my debit card to qualify for the Keep the Change savings program?
+        answer: |
+          Yes, debit card purchases can be rounded up for the Keep the Change savings program?
+      - question: |
+          Where do the savings from the Keep the Change savings program get deposited
+        answer: |
+          They are deposited to your savings account.
+document_outline: |
+  Details of Bank of America Advantage Savings Account policies and fees
+document:
+  repo: https://github.com/rh-aiservices-bu/etx-bofa.git
+  commit: d62f14e2b5ce531fb2b00a67b0ceb4c64de6f1ba
+  patterns:
+    - "source_docs/advantage_savings/*.md"

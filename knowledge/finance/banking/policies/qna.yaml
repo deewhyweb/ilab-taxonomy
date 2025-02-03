@@ -1,0 +1,142 @@
+version: 3
+domain: Banking and finance
+created_by: Team BofA
+seed_examples:
+  - context: |
+       The Customer Interactions guide serves as a resource to provide learners the skills needed to connect with, understand, analyze and address customer needs through a variety of situations and scenarios. The goal is to exceed our customer's expectations by advocating for customers by providing the best solutions every time without fail, act with empathy, demonstrate willingness to help, and make it easy for customers to do business with Bank of America.
+    questions_and_answers:
+      - question: |
+          What is taking ownership and demonstrating a willingness to help?
+        answer: |
+          Taking ownership is about demonstrating a willingness to help.  Bank of America teams should take ownership of the customer's request and bring other people together as needed to address the question, need or concern. You can start a conversation with 'Hello! How can I help you?' to engage with users, ask discovery questions to understand the customer's needs, example 'What is the issue you are facing?'. Once you know more, try to resolve and provide a solution.
+      - question: |
+          How do you resolve a customer's issue?
+        answer: |
+          If you need more context, ask for specifics and clarify. Ask questions like, 'Are you experiencing an issue with your checking or savings account?' or 'What was the specific purchase?' Once you have the information you need, you can provide a solution and try to resolve the issue. For example, ask 'Do you recall adding a tip onto the bill?' or' 'I can help you with that. Let me check your account details.'
+      - question: |
+          What are some phrases to avoid using when speaking to a customer?
+        answer: |
+          Be respectful and helpful, ask questions, and be courteous. Avoid using filler phrases like 'Hmm' or shutting them down with a 'No' or 'You're wrong' or 'I can't help you with that.' Instead, say 'I'm not sure, but I can find out for you' or 'I'm not able to help with that, but I can connect you with someone who can.', 'Let me bring a colleague on the phone who can further assist us.'
+  - context: |
+      Journal prompt: Imagine you are meeting with a customer, and you notice their voice is louder than normal and their expression is angry. What can you do to relate to the customer?
+
+      <!-- image -->
+
+      Possible answer: Use empathetic statements to let the customer know you understand their frustration and let them know you are making it a priority to resolve the issue.
+
+      These are examples of statements that allow us to show empathy across differences when relating to the customer.
+
+      | Less empathetic                    | More empathetic                                                                                                      |
+      |------------------------------------|----------------------------------------------------------------------------------------------------------------------|
+      | Calm down. You're overthinking it. | From what I hear, you are feeling … Is that right?                                                                   |
+      | At least you still have ...        | This is a difficult situation and I think you've shown a lot of  courage and strength in how you're handling things. |
+      | Here's what I would do.            | Thank you for trusting me with this. It means a lot to me.                                                           |
+
+      Here are some things to consider when relating to the customer:
+
+      - Be relational, not transactional.
+      - Use welcoming language.
+      - Communicate with care.
+    questions_and_answers:
+      - question: |
+          What is a good thing to consider when relating to the customer?
+        answer: |
+          Use welcoming language.
+      - question: |
+          What is a good way to interact with a frustrated customer?
+        answer: |
+          Use empathetic language e.g. "From what I hear, you are feeling … Is that right?"
+      - question: |
+          What is a bad way to interact with a frustrated customer?
+        answer: |
+          Use unempathetic language e.g. "At least you still have ..."
+  - context: |
+      This document is the Online Banking Service Agreement that is reviewed and signed by customers when they open a new account with Bank of America.
+      Under the terms of this Agreement, customers may use the Services to obtain financial products and services, access and view account information,
+      and, for certain accounts, move money electronically and perform authorized transactions, for eligible U.S.-based Bank of America consumer and
+      small business accounts and affiliate accounts linked to the Service, such as those at Merrill Lynch, Pierce, Fenner & Smith Incorporated ("Merrill").
+      When users open any type of account with Bank of America, they have to enter into a Service Agreement. This Agreement governs the user's use of any
+      online or mobile banking services maintained by Bank of America and accessible through bankofamerica.com using
+      a personal computer or a mobile device, including a smartphone, tablet, or any other eligible handheld or wearable communication device (the “Service(s)”).
+      It describes the limits of how much users can transfer between their accounts (both Bank of America and other) and transfer money to others using
+      the app, website, Zelle, wire transfers, how to pay bills, fees, and how to resolve alerts and errors.
+    questions_and_answers:
+      - question: |
+          How can a customer use their Bank of America account to pay bills?
+        answer: |
+          Bank of America customers may use Bill Pay to make payments to companies or individuals. Payments can be scheduled from linked checking, money market savings, HELOC accounts or other consumer asset account maintained at another financial institution that you have added to Bill Pay. The customer has to certify that any account you add to Bill Pay is an account from which you are authorized to make payments, and any payment they make using Bill Pay will debit an account that they are legally authorized to use.
+      - question: |
+          What is Zelle and how can users enroll?
+        answer: |
+          The Zelle Service allows you to send or receive money using your consumer or small business deposit accounts. Users must provide BoA with an email address that they use and access regularly and/or a permanent U.S. mobile phone number that they intend to use for an extended period of time. Once enrolled, customers can authorize a debit of their account to send money to another User either at their initiation or at the request of that User, and receive money from another User.
+      - question: |
+          How can a customer reach the Bank of America customer service team?
+        answer: |
+          Bank of America Customer services are available 365 days a year and 24 hours a day, except during system maintenance and upgrades. When this occurs, a message will be displayed on-line when users sign on to use the Services. The Call Centers are available Monday through Friday from 7:00 a.m. to 10:00 p.m., and Saturday and Sunday from 8:00 a.m. to 5:00 p.m. local time, excluding bank holidays, and may be reached through email, phone or website. Users can also write to them.
+          The address is Bank of America, FL1-300-02-07, P.O. Box 25118, Tampa, FL 33622-5118
+  - context: |
+      | Product        |   Short Code | Toll Free Number   |
+      |----------------|--------------|--------------------|
+      | Credit card    |       322632 | 844.585.0488       |
+      | ATM/debit card |        39989 | 844.585.0485       |
+      | Mobile Wallet  |        47518 | 855.262.0541       |
+
+      | Digital fingerprint                          |   55983 | 866.500.6260   |
+      |----------------------------------------------|---------|----------------|
+      | Account takeover                             |   56433 | 866.376.7091   |
+      | Zelle , Wires, ACH and Bill Pay ®            |   80814 | 866.376.4584   |
+      | Rewards redemption                           |   82096 | 844.585.0488   |
+      | Account opening                              |   82958 | 866.258.4982   |
+      | ACH/balance transfer                         |   85382 | 866.222.4145   |
+      | Checking and/or money market savings account |   86006 | 877.887.8935   |
+      | SMS on demand                                |   90208 | 800.432.1000   |
+      | Credit card application                      |   91207 | 888.230.6262   |
+      | Small Business credit card                   |   96264 | 800.427.2399   |
+    questions_and_answers:
+      - question: |
+          What is the Toll free number for Credit Card enquiries?
+        answer: |
+          The Toll Free Number for Credit Card enquiries is 844.585.0488
+      - question: |
+          What is the short code number for Mobile Wallet enquiries?
+        answer: |
+          The short code number for Mobile Wallet enquiries is 47518
+      - question: |
+          What is the Toll free number for Credit card application?
+        answer: |
+          The Toll free number for Credit card applications is 888.230.6262
+  - context: |
+      ## K. Limits
+
+      The following limits apply to Zelle  transfers. ® 1
+
+      |                  | Every 24 hours            | Every 7 days              | Every Month                |
+      |------------------|---------------------------|---------------------------|----------------------------|
+      | Consumer         | $3500 / 10 transactions   | $10,000 / 30 transactions | $20,000 / 60 transactions  |
+      | Small Business 2 | $15,000 / 20 transactions | $45,000 / 60 transactions | $60,000 / 120 transactions |
+
+      /Private Bank and Merrill Lynch Wealth Management clients may be subject to higher dollar limits and total transfers. Please contact your advisor for more information on your limits. 1
+
+      / Zelle  send limits are set at the customer profile (User ID) and apply to all accounts visible in the 'From' dropdown when initiating a Zelle payment.  If you are a small business customer and are not receiving the small business limits, make sure you are logged in with your small business User ID. 2 ® ®
+
+      The minimum transfer amount for any single Zelle  transfer is $1.00. There are no receiving limits for Zelle  transfers.
+    questions_and_answers:
+      - question: |
+          What is the dollar limit for consumer Zelle transactions in a 24 hour period?
+        answer: |
+          The limit is $3500 every 24 hours
+      - question: |
+          What is the limit on the number of Zelle transactions in a 7 day period for consumer transactions?
+        answer: |
+          The limit is 30 transactions every 7 days
+      - question: |
+          What is the receiving limit or Zelle transfers?
+        answer: |
+          There is no receiving limit for Zelle transfers
+
+document_outline: Resource guide for Bank of America employee policies.
+document:
+  repo: https://github.com/rh-aiservices-bu/etx-bofa.git
+  commit: 42e33a5739c78d1d464454142d33c03732611124
+  patterns:
+    - "source_docs/policies/*.md"
